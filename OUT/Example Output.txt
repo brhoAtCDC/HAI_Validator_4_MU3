@@ -1,3 +1,5 @@
+Version: 1.0
+
 Overall Test Result: Failed
 
 Summary: 
@@ -106,7 +108,7 @@ Invalid
 <<<CDA XML Schema with SDTC Extensions>>>
 
 <Error : 1>
-org.xml.sax.SAXParseException; systemId: file:/C:/Users/zhengsh/Desktop/validation/IN/Bad_R1Norm_AR-denom_Format-Issue.xml; lineNumber: 14; columnNumber: 24; Element type "realmCode" must be followed by either attribute specifications, ">" or "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/zhengsh/Desktop/Projects/Meaningful%20Use/HAI_Validator_4_MU3-master%20(1)/HAI_Validator_4_MU3-master/IN/Bad_R1Norm_AR-denom_Format-Issue.xml; lineNumber: 14; columnNumber: 24; Element type "realmCode" must be followed by either attribute specifications, ">" or "/>".
 ----------------------------------------
 
 
