@@ -9,22 +9,22 @@ See certification criterion ( 170.315(f)(6)).
 In order to qualify as certified technology an EHR or EHR Module must be capable of 
 creating  Clinical Document Architecture (CDA) documents for 
 Antimicrobial Use and Resistance conformant to the HL7 Implementation Guide for 
-CDA ? Release 2—Level 3: Healthcare Associated Infection Reports, Release 1—US Realm—August 2013.  
+CDA ? Release 2â€”Level 3: Healthcare Associated Infection Reports, Release 1â€”US Realmâ€”August 2013.  
 See http://www.hl7.org/implement/standards/product_brief.cfm?product_id=20.   
 The following CDAs must all be successfully generated.
-•	Antimicrobial Resistance Option (ARO) Report (Numerator) specific document template in Section 2.1.2.1 (pages 69-72);
-•	Antimicrobial Resistance Option (ARO) Summary Report (Denominator) specific document template in Section 2.1.1.1 (pages 54-56);
-•	Antimicrobial Use (AUP) Summary Report (Numerator and Denominator) specific document template in Section 2.1.1.2 (pages 56-58)
+â€¢	Antimicrobial Resistance Option (ARO) Report (Numerator) specific document template in Section 2.1.2.1 (pages 69-72);
+â€¢	Antimicrobial Resistance Option (ARO) Summary Report (Denominator) specific document template in Section 2.1.1.1 (pages 54-56);
+â€¢	Antimicrobial Use (AUP) Summary Report (Numerator and Denominator) specific document template in Section 2.1.1.2 (pages 56-58)
 The validator checks the aforementioned CDAs for three levels of conformance. 
 
-•	Check for valid XML
-•	Check that the file validates against the cda.xsl schema
-•	Check that the file validates against the hai.sch Schematron
+â€¢	Check for valid XML
+â€¢	Check that the file validates against the cda.xsl schema
+â€¢	Check that the file validates against the hai.sch Schematron
 
 The schema and schematron files were all developed by Lantana Consulting Group 
 (see http://www.lantanagroup.com/ )under contract to the Centers for Disease Control and Preventions (CDC).
 
-This validator uses an open source tool called Probatron (see http://www.probatron.org/)
+This validator uses an open source tool called Probatron (see https://www.openhub.net/p/probatron)
 as well as custom scripting.  Probatron.jar is included in the installation zip file.  
 
 
@@ -39,7 +39,7 @@ this GitHub page are subject to the Presidential Records Act and may be archived
 License
 
 This project constitutes a work of the United States Government and is not subject to domestic copyright protection under 17 
-USC Â§ 105. The project utilizes code licensed under the terms of the Apache Software License and therefore is licensed 
+USC Ã‚Â§ 105. The project utilizes code licensed under the terms of the Apache Software License and therefore is licensed 
 under ASL v2 or later. This program is free software: you can redistribute it and/or modify it under the terms of the 
 Apache Software License version 2, or (at your option) any later version.
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty 
