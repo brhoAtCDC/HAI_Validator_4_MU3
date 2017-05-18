@@ -24,7 +24,7 @@ The validator checks the aforementioned CDAs for three levels of conformance.
 The schema and schematron files were all developed by Lantana Consulting Group 
 (see http://www.lantanagroup.com/ )under contract to the Centers for Disease Control and Preventions (CDC).
 
-This validator uses an open source tool called Probatron (see https://www.openhub.net/p/probatron)
+This validator uses an open source tool called Probatron (see https://code.google.com/archive/p/probatron4j/)
 as well as custom scripting.  Probatron.jar is included in the installation zip file.  
 
 
