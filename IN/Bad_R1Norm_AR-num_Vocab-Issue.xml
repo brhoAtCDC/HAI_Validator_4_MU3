@@ -47,7 +47,6 @@
                <family>last</family>
                <given>first</given>
             </name>
-            <administrativeGenderCode codeSystem="2.16.840.1.113883.5.1" code="M"/>
             <birthTime value="19541125"/>
 			
 			
@@ -467,7 +466,7 @@
                                              <templateId root="2.16.840.1.113883.10.20.5.6.186"/><!-- Consolidated CDA Result Observation template -->
                                              <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
                                              <id nullFlavor="NA"/>
-                                             <code code="55617-5" displayName="Other Antibiotic [Susceptibility] by Gradient strip (E-test)" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                                             <code code="SDGESF" displayName="Other Antibiotic [Susceptibility] by Gradient strip (E-test)" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
                                              <statusCode code="completed"/>
                                              <effectiveTime nullFlavor="NA"/>
                                              <value xsi:type="IVL_PQ">
